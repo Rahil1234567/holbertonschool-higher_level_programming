@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-"""The module defines the square class"""
+"""This script creates a class Square."""
 
 
 class Square:
-    """This class is used to define a square shape"""
-    pass
+    """Defines a square with a private size attribute."""
+    def __init__(self, size):
+        """Initializes the square with a given size."""
+        self.__size = size
